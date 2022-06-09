@@ -1,0 +1,10 @@
+@import '@/plugins/vuetify/default-preset/preset/variables.scss';
+// Write your variable overrides
+// src/sass/variables.scss
+@font-face {
+    font-family: 'Prompt';
+    src: url('~@/assets/Prompt-Regular.ttf');
+}
+
+// Globals
+$body-font-family: 'Prompt';
