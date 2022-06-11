@@ -37,7 +37,7 @@ export default {
             }
         } else {
             if (response.status == 401) {
-                // await store.dispatch("user/signin")
+                // hooking point for signin redirect
             } else {
                 const txt = await response.text()
 
